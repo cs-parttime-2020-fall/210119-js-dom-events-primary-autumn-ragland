@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    margin : 2%;
+    text-align: center;
+}
+
+#container {
+    display:  grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#container > div {
+    border : 1px solid black;
+    margin : 2%;
+}
+
+form > div {
+    margin : 2%;
+}
